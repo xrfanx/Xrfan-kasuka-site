@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.FooterLastPartContainer{
+    width: 100%;
+    height: 6rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #758082;
+    gap: 0.3rem;
+}
+
+.LastFooterTxt{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.LastFooterGithub{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    box-shadow: 2px 1px 1px;
+    width: 12rem;
+    height: 1.5rem;
+}
+
+.LastFooterGithubLink{
+    text-decoration: none;
+    color: rgb(25, 25, 247);
+    
+}
+
+
+

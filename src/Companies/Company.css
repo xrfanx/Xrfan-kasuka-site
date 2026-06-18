@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.companiesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1.8rem;
+    height: 12vh;
+    transform: translateY(-40px)
+
+}
