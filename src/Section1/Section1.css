@@ -64,9 +64,9 @@
 .section1ptag1{
     direction: rtl;
     text-align: justify;
-    line-height: 1rem;
+    line-height: 1.1rem;
     color: gray;
-    font-size: 10px;
+    font-size: 12px;
     max-width: 400px;
     padding-right: 1.5rem;
     white-space: normal;
