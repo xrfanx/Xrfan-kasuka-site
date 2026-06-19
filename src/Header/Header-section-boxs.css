@@ -17,6 +17,7 @@
     z-index: 2;
     cursor: pointer;
     animation: float 4s ease-in-out infinite;
+    
     transition: all 0.3s ease;
 }
 
