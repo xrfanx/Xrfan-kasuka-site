@@ -89,7 +89,6 @@
 
 .navLogo:hover {
     scale: 2;
-    padding-right: 0.5rem;
 }
 
 .navLogofirstpart{
@@ -155,3 +154,46 @@
     rotate: 0deg;
 }
 
+
+
+@media  only screen and (max-width: 1003px){
+    .navMenu{
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+    .navLogo{
+        scale: 0.9;
+    }
+    .navLogo:hover{
+        scale: 1.3;
+    }
+    .navStartButton{
+        scale: 0.8;
+    }
+    .navStartButton:hover{
+        scale: 1;
+    }
+    .hraderH1firstpart,
+    .hraderH1secoundpart,
+    .hraderH1lastpart{
+        font-size: 1.3rem;
+    }
+    .headerH2{
+        font-size: 0.8rem;
+    }
+}
+
+@media  only screen and (max-width: 760px) {
+    .navMenu{
+        font-size: 0.5rem;
+        margin-right: 0;
+    }
+    .navMenu{
+        align-items: center;
+        text-align: center;
+    }
+    .Menu6svg{
+        width: 10px;
+        height: 10px;
+    }
+}
