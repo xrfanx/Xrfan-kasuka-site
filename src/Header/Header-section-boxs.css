@@ -17,6 +17,7 @@
     z-index: 2;
     cursor: pointer;
     animation: float 4s ease-in-out infinite;
+    transition: all 0.3s ease;
 }
 
 @keyframes float {
@@ -34,7 +35,7 @@
 }
 
 .boxsContainer:hover{
-    scale: 1.1;
+    scale: 1.2;
     border-bottom: 4px solid #fe9402;
     transform: translateY(-12px);
 }
